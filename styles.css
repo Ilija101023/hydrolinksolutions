@@ -8,10 +8,14 @@ body {
 
 header {
     background-color: #333;
-    color: white;
+    color: red;
     padding: 1rem 0;
     text-align: center;
 }
+bash {
+    git add styles.css
+git commit -m "Update background colors"
+git push origin main
 
 nav ul {
     list-style: none;
@@ -28,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: green;
     text-decoration: none;
 }
 
@@ -44,5 +48,5 @@ footer {
     text-align: center;
     padding: 1rem 0;
     background-color: #333;
-    color: white;
+    color: red;
 }
